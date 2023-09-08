@@ -96,14 +96,20 @@ namespace HelloJason
 
             IEnumerable<string> myGroceryIEnumberable = myGroceryList;
 
-            Console.WriteLine(myGroceryIEnumberable.First());
+            // Console.WriteLine(myGroceryIEnumberable.First());
 
             string[,] myTwoDimensionalArray = new string[,] {
                 {"Apples", "Eggs"},
                 {"Milk", "Cheese"},
             };
 
-            Console.WriteLine(myTwoDimensionalArray[1,1]);
+            // Console.WriteLine(myTwoDimensionalArray[1,1]);
+
+            Dictionary<string, string[]> myGroceryDictionary = new Dictionary<string, string[]>(){
+                {"Dairy", new string[]{"Cheese", "Milk", "Eggs"}}
+            };
+
+            Console.WriteLine(myGroceryDictionary["Dairy"][2]);
         }
     }
 }
