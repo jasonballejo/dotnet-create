@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jasonballejo/Desktop/Test-Projects/HelloWorld/HellowWorld.csproj": {}
+    "/Users/jasonballejo/Desktop/Test-Projects/dotnet-create/HellowWorld.csproj": {}
   },
   "projects": {
-    "/Users/jasonballejo/Desktop/Test-Projects/HelloWorld/HellowWorld.csproj": {
+    "/Users/jasonballejo/Desktop/Test-Projects/dotnet-create/HellowWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jasonballejo/Desktop/Test-Projects/HelloWorld/HellowWorld.csproj",
+        "projectUniqueName": "/Users/jasonballejo/Desktop/Test-Projects/dotnet-create/HellowWorld.csproj",
         "projectName": "HellowWorld",
-        "projectPath": "/Users/jasonballejo/Desktop/Test-Projects/HelloWorld/HellowWorld.csproj",
+        "projectPath": "/Users/jasonballejo/Desktop/Test-Projects/dotnet-create/HellowWorld.csproj",
         "packagesPath": "/Users/jasonballejo/.nuget/packages/",
-        "outputPath": "/Users/jasonballejo/Desktop/Test-Projects/HelloWorld/obj/",
+        "outputPath": "/Users/jasonballejo/Desktop/Test-Projects/dotnet-create/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jasonballejo/.nuget/NuGet/NuGet.Config"
