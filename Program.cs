@@ -15,7 +15,39 @@ namespace HelloJason
                 myInt += 10;
             }  
 
-            Console.WriteLine(myInt);
+            // Console.WriteLine(myInt);
+
+            string myCow = "Cows";
+            // string myCapitalizedCow = "Cows";
+
+            // If statements
+            // if (myCow == myCapitalizedCow) 
+            // {
+            //     Console.WriteLine("Equal");
+            // }
+
+            // else if (myCow == myCapitalizedCow.ToLower())
+            // {
+            //     Console.WriteLine("Equal without case sensitive");
+            // }
+            // else {
+            //     Console.WriteLine("Not Equal");
+            // }
+
+            // Switch Statement
+            switch (myCow) 
+            {
+                case "cow":
+                    Console.WriteLine("LowerCase");
+                    break;
+                case "Cow":
+                    Console.WriteLine("Capitalized");
+                    break;
+                default:
+                    Console.WriteLine("Default Ran");
+                    break;
+            }
+
         }
     }
 }
