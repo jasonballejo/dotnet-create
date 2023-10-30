@@ -6,48 +6,20 @@ namespace HelloJason
     {
         static void Main(string[] args)
         {
-            int myInt = 5;
-            int mySecondInt = 10;
+            int[] intsToCompress = new int[] {10, 15, 20, 25, 30, 100, 250};
 
-//If true run the block of code, if false then skip
-            if (myInt < mySecondInt)
-            {
-                myInt += 10;
-            }  
+            DateTime startTime = DateTime.Now;
 
-            // Console.WriteLine(myInt);
+            int totalValue = intsToCompress[0] + intsToCompress[1]
+                + intsToCompress[2] + intsToCompress[3]
+                + intsToCompress[4] + intsToCompress[5]
+                + intsToCompress[6];
 
-            string myCow = "Cows";
-            // string myCapitalizedCow = "Cows";
+            Console.WriteLine((DateTime.Now - startTime).TotalSeconds);
 
-            // If statements
-            // if (myCow == myCapitalizedCow) 
-            // {
-            //     Console.WriteLine("Equal");
-            // }
+            // Console.WriteLine(totalValue);
 
-            // else if (myCow == myCapitalizedCow.ToLower())
-            // {
-            //     Console.WriteLine("Equal without case sensitive");
-            // }
-            // else {
-            //     Console.WriteLine("Not Equal");
-            // }
-
-            // Switch Statement
-            switch (myCow) 
-            {
-                case "cow":
-                    Console.WriteLine("LowerCase");
-                    break;
-                case "Cow":
-                    Console.WriteLine("Capitalized");
-                    break;
-                default:
-                    Console.WriteLine("Default Ran");
-                    break;
-            }
-
+                //450
         }
     }
 }
